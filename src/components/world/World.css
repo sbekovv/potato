@@ -1,0 +1,59 @@
+.world-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.world-box h1 {
+    font-family: Scotch Deck;
+    width: 441px;
+    color: #1E2438;
+    font-size: 69px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.world-box p {
+    width: 500px;
+}
+
+.world-text h4 {
+    color: #1E2438;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.world-box img {
+    margin-left: -80px;
+}
+
+.world-box p {
+    width: 352px;
+    color: #1E2438;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 170%;
+    text-transform: capitalize;
+    padding: 12px 0 30px 0;
+}
+
+.world-box button {
+    color: #B1464A;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    display: flex;
+    padding: 14px 28px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    border: 2px solid #B1464A;
+    background: none;
+}
+
+.world-box button:hover {
+    color: rgba(229, 10, 10, 0.92);
+}

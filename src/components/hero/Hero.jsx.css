@@ -1,0 +1,116 @@
+.hero {
+    background: url("../../image/hero.png") center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.heroText {
+    color: #FFF;
+    text-align: center;
+    font-family: Scotch Deck;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero-line {
+    margin-left: 520px;
+    margin-top: 50px;
+}
+
+.hero-column {
+    margin-top: -100px;
+    margin-left: -40px;
+    margin-right: -120px;
+    transform: rotate(-90deg);
+}
+
+.hero-column span {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.hero-btn button {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 14px 28px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: none;
+    cursor: pointer;
+}
+
+.hero-btn button:hover {
+    border: 2px solid #FFF;
+    color: wheat;
+}
+
+.hero-text-svg {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    position: relative;
+    top: -33px;
+}
+
+.hero-lays {
+    position: relative;
+    top: -500px;
+}
+
+.hero-lays-arrow {
+    position: relative;
+    top: -450px;
+    font-size: 35px;
+    color: #B1464A;
+    cursor: pointer;
+    margin-left: 600px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-lays-arrow ion-icon:active {
+    transform: scaleX(2);
+}
+
+.hero-lays {
+    width: 580px;
+    height: 624px;
+}
+
+.seeOurProduct {
+    margin-top: -30px;
+}
+
+.seeOurBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seeOurBox h3 {
+    color: #1E2438;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.seeOurBox span {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+}
