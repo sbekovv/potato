@@ -20,7 +20,7 @@
 .join-box-small h1 {
     font-family: Scotch Deck;
     color: #FFF;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     letter-spacing: -0.96px;
     text-transform: capitalize;
@@ -67,7 +67,8 @@
     transition: transform 0.3s ease;
     margin-left: 410px;
     position: relative;
-    top: -60px;
+    top: -74px;
+    left: -30px;
 }
 
 .join-box-small button:active {

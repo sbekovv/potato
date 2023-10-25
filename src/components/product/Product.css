@@ -34,6 +34,23 @@
     color: wheat;
 }
 
+.product-img {
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-550px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.product-img {
+    animation: slideInRight 1s ease-in-out;
+}
 
 
 .product-text h2 {

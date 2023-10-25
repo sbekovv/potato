@@ -1,0 +1,141 @@
+.header {
+    background: #B1464A;
+    width: 100%;
+    padding: 11px 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box2 {
+    margin-left: 100px;
+}
+
+.box3 {
+    position: relative;
+    left: -190px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 23px;
+}
+
+.header-list a:hover {
+    color: wheat;
+}
+
+.header-icon {
+    margin-left: 10px;
+}
+
+.header-icon ion-icon {
+    padding: 16px;
+    border-radius: 6px;
+    background: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.red-bg {
+    background-color: red;
+    border-radius: 6px;
+}
+
+.sel-bg {
+    display: none;
+}
+
+
+.header-select {
+    border: none;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-select:hover {
+    color: wheat;
+}
+
+.header-length {
+    position: relative;
+    top: -5px;
+    color: #B1464A;
+    left: -20px;
+    font-size: 15px;
+}
+
+
+.header-select option {
+    color: #9a1616;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+}
+
+.header-icon-row {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    position: relative;
+    top: 12px;
+    left: -10px;
+}
+
+.input-search::placeholder {
+    color: blue;
+}
+
+.input-search:focus::placeholder {
+    color: rgb(131, 128, 128);
+}
+
+.input-search:focus, .input-search:not(:placeholder-shown) {
+    background-color: #fff;
+    border: 1px solid rgb(98, 0, 255);
+    width: 290px;
+    padding: 18px 16px 18px 40px;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    z-index: -1;
+    fill: rgb(98, 0, 255);
+    border: 1px solid rgb(98, 0, 255);
+    font-size: 20px;
+    color: blue;
+}
+
+.icon:hover {
+    z-index: 1;
+}
+
+.input-search:hover + .icon {
+    transform: rotate(360deg);
+    transition: .2s ease-in-out;
+}
+
+.input-search:focus + .icon, .input-search:not(:placeholder-shown) + .icon {
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}

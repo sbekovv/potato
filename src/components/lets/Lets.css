@@ -1,0 +1,49 @@
+.lets-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 120px;
+}
+
+.lets-img img {
+    width: 585px;
+    height: 436px;
+}
+
+.lets-text h1 {
+    color: #151414;
+    font-size: 54px;
+    font-weight: 770;
+}
+
+.lets-text p{
+    width: 514px;
+    color: #181D19;
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 34px;
+    padding: 30px 0 20px 0;
+}
+
+.lets-text button {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 40px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.lets-text button:hover {
+    background: linear-gradient(180deg, #5ac437 0%, #87be9c 100%);
+}
+
+.lets-text button:active {
+    background: linear-gradient(180deg, #5ac437 0%, #be0b0b 100%);
+}

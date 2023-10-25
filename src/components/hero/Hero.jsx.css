@@ -21,22 +21,8 @@
 }
 
 .hero-line {
-    margin-left: 520px;
     margin-top: 50px;
-}
-
-.hero-column {
-    margin-top: -100px;
-    margin-left: -40px;
-    margin-right: -120px;
-    transform: rotate(-90deg);
-}
-
-.hero-column span {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 0 15px;
+    margin-right: 100px;
 }
 
 .hero-btn button {
